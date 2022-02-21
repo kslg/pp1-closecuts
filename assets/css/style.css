@@ -3,10 +3,21 @@
 body {
     color: red;
     font-family: Asap, sans-serif;
+} 
 
-
-} /* styles for logo and headers */
+/* styles for logo and headers */
 h1, h2 {
     font-family: Asap Condensed, sans-serif;
     letter-spacing: 1px;
+}
+
+/* styling for the navigation */
+#navigation {
+    letter-spacing: 1px;
+
+}
+#navigation li {
+    float: right;
+    list-style-type: none;
+    /* margin-right: 30px; */
 }
