@@ -52,12 +52,32 @@ h1, h2, h3 {
 }
 
 
-.footer {
+#footer {
     background: #696868;
-    padding: 40px;
+    padding: 40px 0 0 0;
     position: fixed;
     bottom: 0;
     width: 100%;
+    text-align: center;
+}
+#footer-text{
+    color: #eeeeee;
+    line-height: 75px;
+}
+.social-icons{
+    text-align: center;
+
+}
+
+.social-icons li{
+    display: inline;
+}
+
+.social-icons i{
+    font-size: 225%;
+    margin: 1%;
+    padding: 0%;
+    color: #f1c232;
 }
 
 @media screen and (max-width: 914px){
