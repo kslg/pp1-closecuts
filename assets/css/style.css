@@ -79,6 +79,11 @@ h1, h2, h3 {
     padding: 0%;
     color: #f1c232;
 }
+#main-banner {
+    height: 467px;
+    width: 100%;
+    background: url(../images/banner-image-desktop.png) no-repeat center center;
+}   
 
 @media screen and (max-width: 914px){
 
@@ -92,7 +97,7 @@ h1, h2, h3 {
     .header {
         background: #eeeeee;
         padding-top: 84px;
-        width: 100%;
+        width: 91%;
         text-align: center;
     }
     #navigation li {
@@ -132,6 +137,11 @@ h1, h2, h3 {
         margin-left: -15px;
         margin-right: 60px;
     }
+    #main-banner {
+        height: 272px;
+        width: 119%;
+        background: url(../images/banner-image-mobile.png) no-repeat center center;
+    } 
     
 }
 
@@ -161,7 +171,7 @@ h1, h2, h3 {
     }
     
 }
-@media screen and (max-width: 450px){
+/* @media screen and (max-width: 450px){
 
     .header {
         background: #eeeeee;
@@ -185,8 +195,14 @@ h1, h2, h3 {
         margin-left: -15px;
         margin-right: 60px;
     }
+    #main-banner {
+        height: 272px;
+        width: 127%;
+        background: url(../images/banner-image-mobile.png) no-repeat center center;
+    } 
     
-}
+} */
+/* for small mobile devices */
 @media screen and (max-width: 320px){
 
     .header {
@@ -211,4 +227,18 @@ h1, h2, h3 {
         margin-left: -14px;
         margin-right: 20px;
     }
+    #main-banner {
+        height: 272px;
+        width: 127%;
+        background: url(../images/banner-image-mobile.png) no-repeat center center;
+    } 
+}
+
+/* tablet size devices*/
+@media screen and (max-width: 916px){
+    #main-banner {
+        height: 375px;
+        width: 100%;
+        background: url(../images/banner-image-desktop.png) no-repeat center center;
+    } 
 }
