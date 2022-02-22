@@ -141,3 +141,54 @@ h1, h2, h3 {
     }
     
 }
+@media screen and (max-width: 450px){
+
+    .header {
+        background: #eeeeee;
+        padding-top: 84px;
+        width: 100%;
+        text-align: center;
+    }
+    #navigation li {
+        padding: 0px;
+        margin-top: -24px;
+        float: right;
+        margin-right: 0%;
+        margin-left: -35px;
+    }
+    #logo {
+        width: 59%
+    }
+    #navigation a {
+        margin-right: 10px;
+        padding: 14px 13px;
+        margin-left: -15px;
+        margin-right: 60px;
+    }
+    
+}
+@media screen and (max-width: 320px){
+
+    .header {
+        background: #eeeeee;
+        padding-top: 84px;
+        width: 100%;
+        text-align: center;
+    }
+    #navigation li {
+        padding: 0px;
+        margin-top: -24px;
+        float: right;
+        margin-right: 0%;
+        margin-left: -35px;
+    }
+    #logo {
+        width: 59%
+    }
+    #navigation a {
+        margin-right: 10px;
+        padding: 14px 13px;
+        margin-left: -14px;
+        margin-right: 20px;
+    }
+}
