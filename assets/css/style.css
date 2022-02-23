@@ -82,7 +82,7 @@ h1, h2, h3 {
 #main-banner {
     height: 467px;
     width: 100%;
-    background: url(../images/banner-image-desktop.png) no-repeat center center;
+    background: url(../images/banner-desktop-new.png) no-repeat center center;
 }   
 
 @media screen and (max-width: 914px){
