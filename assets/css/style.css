@@ -138,6 +138,93 @@ h1, h2, h3 {
   
 }
 
+
+
+/* homepage content blocks */
+
+.homepage-blocks-one-two {
+    height: 200px;
+    width: 100%;
+}
+
+#homepage-block-one {
+    background-color: #eeeeee;
+    width: 100%;
+
+}
+#homepage-block-one p {
+    text-align: center;
+    padding: 50px 0;
+    font-size: 225%;
+}
+#homepage-block-two img{
+    width: 100%;
+    height: 600px;
+}
+
+
+/******************** responsive queries start *******************/
+
+/* for small mobile devices */
+
+@media screen and (max-width: 350px){
+
+    .header {
+        background: #eeeeee;
+        padding-top: 84px;
+        width: 100%;
+        text-align: center;
+    }
+    #navigation li {
+        padding: 0px;
+        margin-top: -24px;
+        float: right;
+        margin-right: 0%;
+        margin-left: -35px;
+    }
+    #logo {
+        width: 59%
+    }
+    #navigation a {
+        margin-right: 10px;
+        padding: 14px 13px;
+        margin-left: -10px;
+        margin-right: 80px;
+    }
+    
+}
+
+@media screen and (max-width: 320px){
+
+    .header {
+        background: #eeeeee;
+        padding-top: 84px;
+        width: 100%;
+        text-align: center;
+    }
+    #navigation li {
+        padding: 0px;
+        margin-top: -24px;
+        float: right;
+        margin-right: 0%;
+        margin-left: -35px;
+    }
+    #logo {
+        width: 59%
+    }
+    #navigation a {
+        margin-right: 10px;
+        padding: 14px 13px;
+        margin-left: -14px;
+        margin-right: 20px;
+    }
+    #main-banner {
+        height: 272px;
+        width: 127%;
+        background: url(../images/banner-image-mobile.png) no-repeat center center;
+    } 
+}
+
 @media screen and (max-width: 450px){
 
     .header {
@@ -168,95 +255,6 @@ h1, h2, h3 {
         background: url(../images/banner-image-mobile.png) no-repeat center center;
     } 
     
-}
-
-@media screen and (max-width: 350px){
-
-    .header {
-        background: #eeeeee;
-        padding-top: 84px;
-        width: 100%;
-        text-align: center;
-    }
-    #navigation li {
-        padding: 0px;
-        margin-top: -24px;
-        float: right;
-        margin-right: 0%;
-        margin-left: -35px;
-    }
-    #logo {
-        width: 59%
-    }
-    #navigation a {
-        margin-right: 10px;
-        padding: 14px 13px;
-        margin-left: -10px;
-        margin-right: 80px;
-    }
-    
-}
-/* @media screen and (max-width: 450px){
-
-    .header {
-        background: #eeeeee;
-        padding-top: 84px;
-        width: 100%;
-        text-align: center;
-    }
-    #navigation li {
-        padding: 0px;
-        margin-top: -24px;
-        float: right;
-        margin-right: 0%;
-        margin-left: -35px;
-    }
-    #logo {
-        width: 59%
-    }
-    #navigation a {
-        margin-right: 10px;
-        padding: 14px 13px;
-        margin-left: -15px;
-        margin-right: 60px;
-    }
-    #main-banner {
-        height: 272px;
-        width: 127%;
-        background: url(../images/banner-image-mobile.png) no-repeat center center;
-    } 
-    
-} */
-/* for small mobile devices */
-@media screen and (max-width: 320px){
-
-    .header {
-        background: #eeeeee;
-        padding-top: 84px;
-        width: 100%;
-        text-align: center;
-    }
-    #navigation li {
-        padding: 0px;
-        margin-top: -24px;
-        float: right;
-        margin-right: 0%;
-        margin-left: -35px;
-    }
-    #logo {
-        width: 59%
-    }
-    #navigation a {
-        margin-right: 10px;
-        padding: 14px 13px;
-        margin-left: -14px;
-        margin-right: 20px;
-    }
-    #main-banner {
-        height: 272px;
-        width: 127%;
-        background: url(../images/banner-image-mobile.png) no-repeat center center;
-    } 
 }
 
 /* tablet size devices*/
