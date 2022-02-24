@@ -51,7 +51,7 @@ h1, h2, h3 {
     color: #eeeeee;
 }
 
-
+/* styling for the footer and footer elements*/
 #footer {
     background: #696868;
     padding: 40px 0 0 0;
@@ -79,11 +79,36 @@ h1, h2, h3 {
     padding: 0%;
     color: #f1c232;
 }
+
+/*styling for the main banner and banner text block */
 #main-banner {
     height: 467px;
     width: 100%;
     background: url(../images/banner-desktop-new.png) no-repeat center center;
-}   
+}
+#banner-text-block, #banner-text-block h2 {
+    color: #ffffff;
+
+}
+#banner-text-block {
+    font-family: Asap Condensed, sans-serif;
+    letter-spacing: 1px;
+    font-size: 176%;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40pxpx;
+    padding-left: 10px;
+
+    background: rgba(0, 0, 0, 0.5);
+
+    top: 200px;
+    right: 150px;
+
+    position: absolute;
+}
+
 
 @media screen and (max-width: 914px){
 
