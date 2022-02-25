@@ -156,6 +156,9 @@ h1, h2, h3 {
     font-size: 100%;   
 }
 
+#appointment-button input:hover {
+    color: #eeeeee;
+}
 
 
 /******************** responsive queries start *******************/
