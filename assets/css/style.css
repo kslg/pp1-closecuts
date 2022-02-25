@@ -110,36 +110,6 @@ h1, h2, h3 {
 }
 
 
-@media screen and (max-width: 914px){
-
-    #navigation{
-            clear: left;
-            float: left;
-            margin-left: 30px; 
-            margin-bottom: 50px;
-            line-height: 65px;
-    }
-    .header {
-        background: #eeeeee;
-        padding-top: 84px;
-        width: 91%;
-        text-align: center;
-    }
-    #navigation li {
-        padding: 0px;
-        margin-top: -20px;
-    }
-    #logo {
-        float: left;
-        margin-left: 30px;
-        margin-top: -50px;
-    }
-    
-  
-}
-
-
-
 /* homepage content blocks */
 
 .homepage-blocks-one-two {
@@ -225,6 +195,7 @@ h1, h2, h3 {
     } 
 }
 
+
 @media screen and (max-width: 450px){
 
     .header {
@@ -258,6 +229,35 @@ h1, h2, h3 {
 }
 
 /* tablet size devices*/
+
+@media screen and (max-width: 914px){
+
+    #navigation{
+            clear: left;
+            float: left;
+            margin-left: 30px; 
+            margin-bottom: 50px;
+            line-height: 65px;
+    }
+    .header {
+        background: #eeeeee;
+        padding-top: 84px;
+        width: 91%;
+        text-align: center;
+    }
+    #navigation li {
+        padding: 0px;
+        margin-top: -20px;
+    }
+    #logo {
+        float: left;
+        margin-left: 30px;
+        margin-top: -50px;
+    }
+    
+  
+}
+
 @media screen and (max-width: 916px){
     #main-banner {
         height: 375px;
