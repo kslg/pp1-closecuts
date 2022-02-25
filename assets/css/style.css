@@ -125,27 +125,35 @@ h1, h2, h3 {
 #homepage-block-one p {
     text-align: center;
     padding: 50px 0;
-    font-size: 150%;
+    font-size: 120%;
 }
+
+#homepage-block-one form {
+    text-align: center;
+    padding: 10px 0 10px 0;
+    font-size: 100%;
+}
+
 #homepage-block-two img{
     width: 100%;
     height: 600px;
 }
 
-.homepage-appointment-cta {
-    height: 200px;
+.homepage-contact {
+    height: 300px;
     width: 100%;
-    padding: 50px 0 50px 0;
+    padding: 70px 0 0 0;
     background-color: #eeeeee;
 }
 
-#homepage-appointment-cta {
+#homepage-contact {
     text-align: center;
 }
 #appointment-button input{
     background-color: #f1c232;
     padding: 14px 20px;
-    text-decoration: none;   
+    text-decoration: none;
+    font-size: 100%;   
 }
 
 
