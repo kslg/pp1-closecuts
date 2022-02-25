@@ -160,6 +160,24 @@ h1, h2, h3 {
     color: #eeeeee;
 }
 
+#about-text p{
+    font-family: Asap Condensed, sans-serif;
+    letter-spacing: 1px;
+    font-size: 176%;
+    text-align: center;
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background: rgba(0, 0, 0, 0.5);
+
+    /* top: 200px;
+    right: 150px; */
+
+    position: absolute;
+}
 
 /******************** responsive queries start *******************/
 
