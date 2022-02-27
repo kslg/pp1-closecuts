@@ -23,13 +23,40 @@
                     <a href="#contact-us">Contact Us</a>
                 </li>
                 <li>
-                    <a href="#">Book an Appointment</a>
+                    <a href="#booking-form.html">Book an Appointment</a>
                 </li>
             </ul>
         </nav>
     </header>
+<section>
+    <h2>Book an Appointment</h2>
+    <form action="/action_page.php">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="John" required><br>
 
-    
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Doe" required><br><br>
+        
+        <label for="email">Email Address:</label><br>
+        <input type="text" id="email" name="email" value="email" required><br><br>
+
+        <label for="phone_number">Contact Number:</label><br>
+        <input type="text" id="phone_number" name="phone_number" value="phone_number" required><br><br>
+
+        <label for="appointment-date">Appointment Date:</label><br>
+        <input type="date" id="appointment-date" name="appointment-date" required><br><br>
+
+        <label for="appt_time">Select a time:</label><br>
+        <input type="time" id="appt_time" name="appt_time" required><br><br>
+
+        <input type="submit" value="Submit">
+      </form> 
+      
+      <p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+
+
+
+</section>
 
 
 
