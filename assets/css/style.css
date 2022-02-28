@@ -109,7 +109,6 @@ h1, h2, h3 {
     position: absolute;
 }
 
-
 /* homepage content blocks */
 
 .homepage-blocks {
@@ -134,35 +133,19 @@ h1, h2, h3 {
     font-size: 100%;
 }
 
-/* .homepage-image img{
-    width: 100%;
-} */
-
-#image-outer {
-    height:600px;
-    width: 100%;
-    overflow: hidden;
+.homepage-image{
+    background: url("../images/pexels-rodnae-productions-7755176.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 900px;
     position: relative;
 }
-#image {
-    height: 600px;
-    width: 100%;
-    background: url(../images/pexels-rodnae-productions-7755176.jpg);
-}
-#image-text {
-    font-family: Asap Condensed, sans-serif;
-    letter-spacing: 1px;
-    font-size: 176%;
+
+.centered {
     text-align: center;
-    width: 300px;
-    height: 200px;
-
-    padding-top: 40px;
-    padding-left: 10px;
-
-    background: rgba(0, 0, 0, 0.5);
-}
-
+    color: black;
+    padding: 350px 5% 0 5%;
+  }
 
 
 .homepage-contact {
