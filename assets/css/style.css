@@ -34,14 +34,6 @@ h1, h2, h3 {
     margin-left: 30px;
 }
 
-input[type="date"]::-webkit-calendar-picker-indicator{
-    background-color:white;
-}
-
-input[type="time"]::-webkit-calendar-picker-indicator{
-    background-color:white;
-}
-
 /* styling for the navigation */
 #navigation {
     letter-spacing: 1px;
@@ -245,6 +237,14 @@ padding: 40px;
     color: #eeeeee;
 }
 
+input[type="date"]::-webkit-calendar-picker-indicator{
+    background-color:white;
+}
+
+input[type="time"]::-webkit-calendar-picker-indicator{
+    background-color:white;
+}
+
 /******************** responsive queries start *******************/
 
 /* for small mobile devices */
@@ -314,14 +314,17 @@ padding: 40px;
         background: #eeeeee;
         padding-top: 84px;
         width: 100%;
+        height: 60px;
         text-align: center;
     }
     #navigation li {
         padding: 0px;
         margin-top: -24px;
         float: right;
-        margin-right: 0%;
-        margin-left: -35px;
+        margin: 0 0 12px 0;
+        
+        /* margin-right: 0%;
+        margin-left: -35px; */
     }
     #logo {
         width: 59%
@@ -337,6 +340,28 @@ padding: 40px;
         width: 119%;
         background: url(../images/banner-image-mobile.png) no-repeat center center;
     } 
+
+    #banner-text-block {
+        font-family: Asap Condensed, sans-serif;
+        letter-spacing: 1px;
+        font-size: 176%;
+    
+        /* width: 300px; */
+        height: 200px;
+    
+        /* padding-top: 40px;
+        padding-left: 10px; */
+    
+        background: rgba(0, 0, 0, 0.6);
+    
+        top: 200px;
+        right: 150px;
+    
+        position: absolute;
+        margin: 53px -110px 0 0;
+    }
+
+
     
 }
 
@@ -358,8 +383,8 @@ padding: 40px;
         text-align: center;
     }
     #navigation li {
-        padding: 0px;
-        margin-top: -20px;
+        padding: 0 0% 0 3%;
+        margin: 0 0 0 -18%;
     }
     #logo {
         float: left;
