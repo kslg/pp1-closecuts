@@ -204,8 +204,8 @@ color: #eeeeee;
 background-color: rgba(0, 0, 0, 0.8);
 max-width: 400px;
 position: absolute;
-margin-left: 32%;
-padding: 30px;
+margin-left: 3em;
+padding: 40px;
  }
 
  .text-input {
@@ -222,7 +222,7 @@ padding: 30px;
     background: url("../images/pexels-delbeautybox-853427.jpg");
     background-size: cover;
     background-position: center;
-    height: 900px;
+    height: 945px;
 }
 
 #form-headers {
