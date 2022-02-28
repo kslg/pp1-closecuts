@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Asap&family=Asap+Condensed:wght@500&display=swap');
 
+html,body{
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
 /* allows better control over the box-model measurements */
 * {
     margin: 0;
@@ -27,6 +32,14 @@ h1, h2, h3 {
 #logo {
     float: left;
     margin-left: 30px;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator{
+    background-color:white;
+}
+
+input[type="time"]::-webkit-calendar-picker-indicator{
+    background-color:white;
 }
 
 /* styling for the navigation */
