@@ -134,6 +134,37 @@ h1, h2, h3 {
     font-size: 100%;
 }
 
+/* .homepage-image img{
+    width: 100%;
+} */
+
+#image-outer {
+    height:600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+#image {
+    height: 600px;
+    width: 100%;
+    background: url(../images/pexels-rodnae-productions-7755176.jpg);
+}
+#image-text {
+    font-family: Asap Condensed, sans-serif;
+    letter-spacing: 1px;
+    font-size: 176%;
+    text-align: center;
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background: rgba(0, 0, 0, 0.5);
+}
+
+
+
 .homepage-contact {
     height: 300px;
     width: 100%;
@@ -144,16 +175,6 @@ h1, h2, h3 {
 #homepage-contact {
     text-align: center;
 }
-/* #appointment-button input{
-    background-color: #f1c232;
-    padding: 14px 20px;
-    text-decoration: none;
-    font-size: 100%;   
-}
-
-#appointment-button input:hover {
-    color: #eeeeee;
-} */
 
 #homepage-block-one a{
     text-decoration: none;    
@@ -174,25 +195,6 @@ h1, h2, h3 {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
   }
-
-#about-text p{
-    font-family: Asap Condensed, sans-serif;
-    letter-spacing: 1px;
-    font-size: 176%;
-    text-align: center;
-    width: 300px;
-    height: 200px;
-
-    padding-top: 40px;
-    padding-left: 10px;
-
-    background: rgba(0, 0, 0, 0.5);
-
-    /* top: 200px;
-    right: 150px; */
-
-    position: absolute;
-}
 
 
 /* styling for the booking form */
