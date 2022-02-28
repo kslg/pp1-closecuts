@@ -184,7 +184,7 @@ h1, h2, h3 {
 
 .booking-form{
 margin: 30px 20% 0 0;
-color: blue
+color: #eeeeee;
 background-color: rgba(0, 0, 0, 0.5);
 max-width: 400px;
 position: absolute;
@@ -207,6 +207,11 @@ padding: 30px;
     background-size: cover;
     background-position: center;
     height: 900px;
+}
+
+#form-headers {
+    color: #ffffff;
+    text-align: center;
 }
 
 /******************** responsive queries start *******************/
