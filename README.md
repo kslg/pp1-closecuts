@@ -308,19 +308,36 @@ All icons to be in Dark Yellow:
 
 ## The Surface Plane / Final Concept
 
-### Homepage
+### Homepage Wireframe
+![image](/docs/images/homepage-wireframe.png)
 
-### Con
+### Contact Us Wireframe
+![image](/docs/images/contact-us-wireframe.png)
 
+### Booking Form Wireframe
+![image](/docs/images/booking-form-wireframe.png)
+
+### Gallery Page Wireframe
+![image](/docs/images/gallery-wireframe.png)
 
 
 ------
 
 ### Credits / Borrowed Resources / Tools
 
-Balsamic
+- Assets/Images are free stock photos, royalty free images & videos shared by creators. https://www.pexels.com/
 
-W3C
+- Font Library
+https://fonts.google.com/
+
+- Content / Copy / Text / Store Details
+https://www.dare-salon.com/
+
+- Inspired by the Love Running and Coders Coffee House Projects.
+- Support from my mentor Gerard McBride and the Slack Community.
+- Wireframes produced using Balsamic
+- Online Code Support and References: W3C Schools and Stackoverflow Community.
+
 
 
 ------
@@ -339,6 +356,10 @@ W3C
 ------
 
 ### Unfixed Bugs
+ Due to time constraints the following bugs are still unfixed. Following Agile practises, these bugs can go into a backlog of requirements and prioritised accordingly.
+
+- Mobile Banner for smaller devices. Image not aligned correctly.
+- Desktop Banner for larger screen sizes. White space on each side.
 
 ------
 
