@@ -168,7 +168,71 @@ The site was published via Github Pages. You can see the site live
 
 ------
 
-## UX Design Planning
+## UX Planning
+
+I used the 5 Planes of UX to provide a conceptual framework. 
+
+### The Strategy Plane
+
+#### Mission Objectives / The What:
+
+- Low Cost, Affordable service for members of the public.
+- Stylish establishment.
+- Not compromising on quality.
+- Book Appointments online.
+
+#### The Why:
+- Where students gain the experience to be qualified hairdressers.
+- Students earn and learn.
+- Engage with the community.
+- Provide a public service.
+
+#### Ideas & Inspiration Mind Map
+![image](/docs/images/mind-map-image.png)
+
+#### Demographic
+- Target Audience between: 16 years - 35 years
+- O.A.Ps Welcome
+- All genders Welcome.
+
+#### Colour Palette Ideas
+- High colour contrast for better accessibility and clear communication.
+![image](/docs/images/colour-palette-ideas.png)
+
+#### Content Strategy
+- Information on the mission: Why we are doing this
+- Book an appointment
+- Store Location
+- Opening Times
+
+#### Typography
+Fonts selected are `Asap` and `Asap Condensed` from Google Fonts which are clear and easy to read. https://fonts.google.com/
+
+![image](/docs/images/typography-screenshot.png)
+
+
+### The Scope Plane
+
+#### Functional Requirements
+
+1. Problem: Customers need to book an appointment using an easy online form.
+
+   Solution: To build an Online Booking Form that can be accessed and filled out on desktop and responsive devices. 
+
+2. Problem: 
+- So the customer does not think the site is frozen, not working.
+- To make the banner content more attractive.
+
+   Solution: Zoom behaviour on the Hero Image
+
+3. Problem: The users have to scroll all the way to the top to use the navigation to through the site.
+
+   Solution: Make the Navigation ‘sticky’ so it’s position is always fixed at the top.
+
+4. Problem: Making Customers understand the culture and what the CloseCuts is about.
+	
+   Solution: Present and image gallery showing customer experiences.
+
 
 -----
 
