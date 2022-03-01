@@ -157,7 +157,7 @@ input[type="time"]::-webkit-calendar-picker-indicator{
 }
 
 .homepage-image{
-    background: url("../images/pexels-rodnae-productions-7755176.jpg");
+    background: url("../images/about-us-background.jpg");
     background-size: cover;
     background-position: center;
     height: 900px;
@@ -233,7 +233,7 @@ input[type="time"]::-webkit-calendar-picker-indicator{
     
 }
 .form-section {
-    background: url("../images/pexels-delbeautybox-853427.jpg");
+    background: url("../images/booking-form-page-background.jpg");
     background-size: cover;
     background-position: center;
     height: 945px;
