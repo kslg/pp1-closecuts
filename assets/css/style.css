@@ -13,12 +13,12 @@ html,body{
 } 
 
 body {
-    font-family: Asap, sans-serif;
+    font-family: 'Asap', sans-serif;
 } 
 
 /* styles for logo and headers */
 h1, h2, h3 {
-    font-family: Asap Condensed, sans-serif;
+    font-family: 'Asap Condensed', sans-serif;
     letter-spacing: 1px;
     color: black;
 }
@@ -97,7 +97,7 @@ h1, h2, h3 {
 
 }
 #banner-text-block {
-    font-family: Asap Condensed, sans-serif;
+    /* font-family: Asap Condensed, sans-serif; */
     letter-spacing: 1px;
     font-size: 176%;
 
@@ -332,7 +332,7 @@ input[type="time"]::-webkit-calendar-picker-indicator{
     } 
 
     #banner-text-block {
-            font-family: Asap Condensed, sans-serif;
+            /* font-family: Asap Condensed, sans-serif; */
             letter-spacing: 1px;
             font-size: 176%;
             height: 200px;
@@ -383,7 +383,7 @@ input[type="time"]::-webkit-calendar-picker-indicator{
     } 
 
     #banner-text-block {
-        font-family: Asap Condensed, sans-serif;
+        /* font-family: Asap Condensed, sans-serif; */
         letter-spacing: 1px;
         font-size: 176%;
         height: 200px;
