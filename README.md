@@ -1,4 +1,4 @@
-<h1>CloseCuts Website</h1>
+# CloseCuts
 
 
 ## Introduction
@@ -6,6 +6,8 @@
 This is a non-transactional website for a Salon Academy. On this website the user can find out more about the Academy and book an appointment with the Salon. The website is responsive so users can view the site and book appointments on mobile and tablet devices, while on the go. 
 
 ![image](/docs/images/i-am-responsive-screenshot.png)
+
+------
 
 ## Accessibility
 
@@ -15,11 +17,15 @@ I’ve used Symantic HTML markup which helps browsers to understand the context 
 
 I’ve used `role` and `alt` Attributes on all the background images to explain what the images are.
 
+------
+
 ## SEO (Search Engine Optimisation)
 
 I've added `meta data` and a `title` to the .html pages. This helps Search engines like Google when looking for matches based on what the user searches for. 
 
 I added a `description`, `keywords` and `author`. Search Engines will display the title and description information in their search results.
+
+------
 
 ## Features List
 
@@ -52,19 +58,57 @@ All the button on the site have a `uniformed hover state` interaction so it's cl
 
 ![image](/docs/images/feature-hover-state-buttons.png)
 
+------
+
+## Testing
+
+### Responsive Testing
+
+I have tested that the site is responsive by applying specific styles for different `CSS breakpoints`
+
+#### Breakpoints used for mobile devices:
+
+1. `max-width: 350px` 
+2. `max-width: 320px`
+3. `max-width: 450px`
+
+#### Breakpoints used for tablet devices:
+
+1. `max-width: 914px`
+2. `max-width: 916px`
+
+I used the Chrome inspect element to check the different CSS breakpoints.
+
+
+### Booking From Data Submission
+
+I've tested the booking form and user data is submitted succesfully.
+![image](/docs/images/testing-booking-form-data-submission.png)
+
+### Form Validation
+
+I've tested the validation on the booking form so the user cannot submit the form unless all fields have been filled out. The prevents missing information that is needed to make the booking.
+![image](/docs/images/testing-form-validation.png)
+
+### Accessibility
+
+I used the `Chrome Screen Reader Extention` to test that the site is accessibility friendly.
+
+![image](/docs/images/testing-screen-reader.png)
+
+### Bugs encountered during testing
+
+1. The transparent background for the form was not showing.
+I checked the code and saw that there was a space between `rgba` and the `values`.
+
+Incorrect: `background: rgba (0, 0, 0, 0.5);`
+
+Correct: `background: rgba(0, 0, 0, 0.5);`
+
+![image](/docs/images/bug-1.png)
 
 
 
-
-
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
 
 ------
 
