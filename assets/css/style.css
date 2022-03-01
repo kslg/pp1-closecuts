@@ -250,6 +250,11 @@ input[type="time"]::-webkit-calendar-picker-indicator{
 .button-container {
     text-align: center;
 }
+
+#hpform-cta:hover {
+    color: #eeeeee;
+}
+
 #form-cta:hover {
     color: #eeeeee;
 }

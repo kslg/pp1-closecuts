@@ -13,11 +13,19 @@ I’ve added ARIA attributes to all links on the page with text information. Thi
 
 I’ve used Symantic HTML markup which helps browsers to understand the context of the content, and also helps with the accessibility for users with impairments.
 
-I’ve used ROLE and ALT Attributes on all the background images to explain what the images are.
+I’ve used `role` and `alt` Attributes on all the background images to explain what the images are.
+
+## SEO (Search Engine Optimisation)
+
+I've added `meta data` and a `title` to the .html pages. This helps Search engines like Google when looking for matches based on what the user searches for. 
+
+I added a `description`, `keywords` and `author`. Search Engines will display the title and description information in their search results.
+
+## Features List
+
+### Booking Form
 
 
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
 To log into the Heroku toolbelt CLI:
 
