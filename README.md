@@ -1,4 +1,4 @@
-<h1 style="text-align:center;">CloseCuts</h1>
+<h1 align="center">CloseCuts</h1>
 
 
 ## Introduction
@@ -184,4 +184,4 @@ The site was published via Github Pages. You can see the site live
 
 ------
 
-<p style="text-align:center;">End of document.</p>
+<p align="center">End of document.</p>
