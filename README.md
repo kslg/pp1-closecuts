@@ -19,6 +19,20 @@ I’ve used `role` and `alt` Attributes on all the background images to explain 
 
 ------
 
+## Accessibility Score: Google Lighthouse Test
+
+The site ran through Google Lighthouse for Desktop and Mobile:
+
+### Desktop Scores:
+
+![image](/docs/images/google-lighthouse-test-desktop.png)
+
+### Mobile Scores:
+
+![image](/docs/images/google-lighthouse-test-mobile.png)
+
+------
+
 ## SEO (Search Engine Optimisation)
 
 I've added `meta data` and a `title` to the .html pages. This helps Search engines like Google when looking for matches based on what the user searches for. 
@@ -106,6 +120,31 @@ Incorrect: `background: rgba (0, 0, 0, 0.5);`
 Correct: `background: rgba(0, 0, 0, 0.5);`
 
 ![image](/docs/images/bug-1.png)
+
+2. The date and time selector icons were not using the applied CSS styles. I have to override the styles and apply directly. The icons seem to be gererated by the browser. They were not from a third-party library.
+
+![image](/docs/images/bug-2.png)
+
+Using the syntax below allowed me to override the styles for the default icons:
+```
+input[type="date"]::-webkit-calendar-picker-indicator{
+   background-color:white;
+}
+ 
+input[type="time"]::-webkit-calendar-picker-indicator{
+   background-color:white;
+}
+```
+
+3. Mobile  - Navigation buttons were not aligned and not in order.
+	This took a lot of back and forth in changing styles for the `header`, `navigation` and the `li` elements.
+
+![image](/docs/images/bug-3.png)
+
+4. The ‘Book an Appointment’ button on the homepage was partially hidden on mobile view.
+First I increased the height on `#homepage-block-one` and then updated the padding on `#homepage-block-one p`
+
+![image](/docs/images/bug-4.png)
 
 
 ## HTML and CSS Code Validation
