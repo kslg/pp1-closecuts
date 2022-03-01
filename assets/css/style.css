@@ -20,7 +20,7 @@ body {
 
 /* styles for logo and headers */
 h1, h2, h3 {
-    font-family: Asap Condensed, sans-serif;
+    font-family: "Asap Condensed", sans-serif;
     letter-spacing: 1px;
     color: black;
 }
