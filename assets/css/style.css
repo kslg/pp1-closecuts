@@ -32,6 +32,7 @@ h1, h2, h3 {
 #logo {
     float: left;
     margin-left: 30px;
+    font-size: 50px;
 }
 
 /* styling for the navigation */
@@ -106,7 +107,7 @@ h1, h2, h3 {
     padding-top: 40px;
     padding-left: 10px;
 
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.7);
 
     top: 200px;
     right: 150px;
@@ -153,7 +154,7 @@ h1, h2, h3 {
     height: 163px;
     padding-top: 31px;
     padding-left: 10px;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.7);
     top: 200px;
     margin-left: 10%;
     position: absolute;
@@ -193,7 +194,7 @@ h1, h2, h3 {
 .booking-form{
 margin: 30px 20% 0 0;
 color: #eeeeee;
-background-color: rgba(0, 0, 0, 0.8);
+background-color: rgba(0, 0, 0, 0.7);
 max-width: 400px;
 position: absolute;
 margin-left: 3em;
@@ -276,7 +277,6 @@ input[type="time"]::-webkit-calendar-picker-indicator{
     #homepage-block-one {
         background-color: #eeeeee;
         width: 100%;
-        position: relative
         height: 170px;
     }
     #homepage-block-one p {
@@ -325,7 +325,7 @@ input[type="time"]::-webkit-calendar-picker-indicator{
             font-size: 176%;
             height: 200px;
         
-            background: rgba(0, 0, 0, 0.6);
+            background: rgba(0, 0, 0, 0.7);
         
             top: 200px;
             right: 150px;
@@ -376,7 +376,7 @@ input[type="time"]::-webkit-calendar-picker-indicator{
         font-size: 176%;
         height: 200px;
     
-        background: rgba(0, 0, 0, 0.6);
+        background: rgba(0, 0, 0, 0.7);
     
         top: 200px;
         /* right: 150px; */
@@ -416,14 +416,13 @@ input[type="time"]::-webkit-calendar-picker-indicator{
     }
     #navigation li {
         padding: 25px 2% 0 3%;
-        /* margin: -1px -10px 2% 2%  */
         margin: -1px -22px 2% 4px;
     }
     #logo {
         float: left;
         margin-left: -5px;
         margin-top: 0px;
-        font-size: 400%;
+        font-size: 50px;
     }
     
   
