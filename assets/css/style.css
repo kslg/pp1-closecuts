@@ -285,11 +285,13 @@ input[type="time"]::-webkit-calendar-picker-indicator{
         text-align: center;
     }
     #navigation li {
-        padding: 0px;
+        /* padding: 0px;
         margin-top: -24px;
         float: right;
         margin-right: 0%;
-        margin-left: -35px;
+        margin-left: -35px; */
+    padding: 25px 0% 0 3%;
+
     }
     #logo {
         width: 59%
@@ -330,10 +332,10 @@ input[type="time"]::-webkit-calendar-picker-indicator{
         width: 59%
     }
     #navigation a {
-        /* margin-right: 10px; */
-        padding: 11px 13px;
-        margin-left: -60px;
-        margin-right: 60px;
+        padding: 11px 3px 11px 3px;
+        /* margin: 0 31px 0px 31px; */
+
+        margin: 0 18px 0px 25px;
     }
     #main-banner {
         height: 272px;
@@ -345,12 +347,7 @@ input[type="time"]::-webkit-calendar-picker-indicator{
         font-family: Asap Condensed, sans-serif;
         letter-spacing: 1px;
         font-size: 176%;
-    
-        /* width: 300px; */
         height: 200px;
-    
-        /* padding-top: 40px;
-        padding-left: 10px; */
     
         background: rgba(0, 0, 0, 0.6);
     
@@ -371,9 +368,6 @@ input[type="time"]::-webkit-calendar-picker-indicator{
 
     #navigation{
             clear: left;
-            /* float: left; */
-            /* margin-left: 30px; 
-            margin-bottom: 50px; */
             line-height: 65px;
             margin: -6% 0% 0% -44%;
     }
@@ -381,13 +375,11 @@ input[type="time"]::-webkit-calendar-picker-indicator{
         background: #eeeeee;
         padding-top: 34px;
         width: 91%;
-        /* height: 40px; */
         height: 65px;
     }
     #navigation li {
         padding: 25px 0% 0 3%;
-        margin: -1px -10px 2% 2%
-        /* padding: 4% 0% 0 3%; */
+        margin: -1px -10px 2% 2% 
     }
     #logo {
         float: left;
