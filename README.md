@@ -1,8 +1,15 @@
-# CloseCuts Website
+<h1>CloseCuts Website</h1>
 
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 Welcome Krishan Gharu,
+
+![Responsive Image](./assets/readme_images/I am responsive screenshot.png)
+
+test
+
+
+![image](../pp1-closecuts/assets/readme_images/I am responsive screenshot.png)
 
 This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
