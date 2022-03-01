@@ -108,6 +108,15 @@ Correct: `background: rgba(0, 0, 0, 0.5);`
 ![image](/docs/images/bug-1.png)
 
 
+## HTML and CSS Code Validation
+
+Both the W3C Markup HTML Validator and W3C CSS Validator were used to to confirm there are no errors in the codebase.
+
+![W3C CSS Validator Report](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fkslg.github.io%2Fpp1-closecuts%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+
+
+![W3C CSS Validator Report](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fkslg.github.io%2Fpp1-closecuts%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+
 
 
 ------
