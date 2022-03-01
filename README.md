@@ -261,12 +261,67 @@ Using the `MoSCoW prioritisation method` which is used in Agile project delivery
 - Easy Navigation allows the user to get to their destination in less than three clicks.
 - Sticky Navigation allows easy access to other main pages.
 
+---
 
-### Wireframes
+## The Skeleton Plan
+
+### Header
+- Grey background.
+- Black Text in a yellow/gold box.
+- Hover States: White text.
+
+ Example:
+
+ ![image](/docs/images/header-cta-states-wireframe.png)
+
+### Footer
+
+- Grey background.
+- White Text.
+- Yellow/Gold Icons.
+
+Example:
+
+![image](/docs/images/footer-wireframe.png)
+
+## CTA Buttons
+Non-clicked State: 
+- Yellow text box
+- Black text
+
+Hover State:
+- Yellow text box
+- White text
+
+![image](/docs/images/hover-state-buttons-wireframe.png)
+
+## Colour Palette:
+
+![image](/docs/images/colour-palette-wireframe.png)
+
+## Iconography:
+All icons to be in Dark Yellow:
+
+![image](/docs/images/social-icons-wireframe.png)
+
+--- 
+
+## The Surface Plane / Final Concept
+
+### Homepage
+
+### Con
+
+
 
 ------
 
-### Credits / Borrowed Resources
+### Credits / Borrowed Resources / Tools
+
+Balsamic
+
+W3C
+
 
 ------
 
