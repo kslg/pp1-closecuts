@@ -307,6 +307,21 @@ input[type="time"]::-webkit-calendar-picker-indicator{
         width: 127%;
         background: url(../images/banner-image-mobile.png) no-repeat center center;
     } 
+
+    #banner-text-block {
+            font-family: Asap Condensed, sans-serif;
+            letter-spacing: 1px;
+            font-size: 176%;
+            height: 200px;
+        
+            background: rgba(0, 0, 0, 0.6);
+        
+            top: 200px;
+            right: 150px;
+        
+            position: absolute;
+            margin: 0px -45% 0 16%;
+    }
 }
 
 
@@ -320,11 +335,11 @@ input[type="time"]::-webkit-calendar-picker-indicator{
         text-align: center;
     }
     #navigation li {
-        padding: 0px;
+        padding: 11px 12px 11px 1px;
         margin-top: -24px;
         float: right;
-        margin: 0 0 12px 0;
-        
+        /* margin: 0 0 12px 0; */
+        margin: 0 18px 0px 14px;
         /* margin-right: 0%;
         margin-left: -35px; */
     }
@@ -335,7 +350,7 @@ input[type="time"]::-webkit-calendar-picker-indicator{
         padding: 11px 3px 11px 3px;
         /* margin: 0 31px 0px 31px; */
 
-        margin: 0 18px 0px 25px;
+        margin: 0 33px 0px -1px;
     }
     #main-banner {
         height: 272px;
@@ -352,10 +367,11 @@ input[type="time"]::-webkit-calendar-picker-indicator{
         background: rgba(0, 0, 0, 0.6);
     
         top: 200px;
-        right: 150px;
+        /* right: 150px; */
     
         position: absolute;
-        margin: 53px -110px 0 0;
+        margin: 5px -134px 0 0px;
+        padding: 0 0px 0 0px;
     }
 
 
@@ -378,8 +394,9 @@ input[type="time"]::-webkit-calendar-picker-indicator{
         height: 65px;
     }
     #navigation li {
-        padding: 25px 0% 0 3%;
-        margin: -1px -10px 2% 2% 
+        padding: 25px 2% 0 3%;
+        /* margin: -1px -10px 2% 2%  */
+        margin: -1px -22px 2% 4px;
     }
     #logo {
         float: left;
