@@ -97,7 +97,6 @@ h1, h2, h3 {
 
 }
 #banner-text-block {
-    /* font-family: Asap Condensed, sans-serif; */
     letter-spacing: 1px;
     font-size: 176%;
 
@@ -332,7 +331,6 @@ input[type="time"]::-webkit-calendar-picker-indicator{
     } 
 
     #banner-text-block {
-            /* font-family: Asap Condensed, sans-serif; */
             letter-spacing: 1px;
             font-size: 176%;
             height: 200px;
@@ -383,7 +381,6 @@ input[type="time"]::-webkit-calendar-picker-indicator{
     } 
 
     #banner-text-block {
-        /* font-family: Asap Condensed, sans-serif; */
         letter-spacing: 1px;
         font-size: 176%;
         height: 200px;
@@ -391,7 +388,6 @@ input[type="time"]::-webkit-calendar-picker-indicator{
         background: rgba(0, 0, 0, 0.7);
     
         top: 200px;
-        /* right: 150px; */
     
         position: absolute;
         margin: 5px -134px 0 0px;
