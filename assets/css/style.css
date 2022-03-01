@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Asap&family=Asap+Condensed:wght@500&display=swap');
 
+
+/* helps browsers and devices scale the site more smoother */
 html,body{
     overflow-x: hidden;
     overflow-y: auto;
@@ -16,9 +18,8 @@ body {
     font-family: Asap, sans-serif;
 } 
 
-
-
 /* styles for logo and headers */
+
 h1, h2, h3 {
     font-family: "Asap Condensed", sans-serif;
     letter-spacing: 1px;
@@ -39,6 +40,7 @@ input[type="time"]::-webkit-calendar-picker-indicator{
 }
 
 /* the float attrbute allows the menu to float to the right of the logo */
+
 #logo {
     float: left;
     margin-left: 30px;
@@ -46,6 +48,7 @@ input[type="time"]::-webkit-calendar-picker-indicator{
 }
 
 /* styling for the navigation */
+
 #navigation {
     letter-spacing: 1px;
 }
@@ -68,6 +71,7 @@ input[type="time"]::-webkit-calendar-picker-indicator{
 }
 
 /* styling for the footer and footer elements*/
+
 #footer {
     background: #696868;
     padding: 40px 0 0 0;
@@ -97,6 +101,7 @@ input[type="time"]::-webkit-calendar-picker-indicator{
 }
 
 /*styling for the main banner and banner text block */
+
 #main-banner {
     height: 467px;
     width: 100%;
@@ -169,19 +174,19 @@ input[type="time"]::-webkit-calendar-picker-indicator{
     margin-left: 10%;
     position: absolute;
     margin-top: 5%;
-  }
+}
 
-  .about-text h2 {
+.about-text h2 {
     color: #ffffff;
     text-align: center;
     padding: 0 0 10px 0;
-  }
+}
 
-  .about-text p {
+.about-text p {
     color: #ffffff;
     font-size: 120%;
     text-align: center;
-  }
+}
 
 .homepage-contact {
     height: 300px;
@@ -199,11 +204,11 @@ input[type="time"]::-webkit-calendar-picker-indicator{
     color: black;
     background-color: #f1c232;
     padding: 14px 20px;
-  }
+}
   
-  #hpform-cta a:hover{
+#hpform-cta a:hover{
     color: #eeeeee;
-  }
+}
 
 /* styling for the booking form */
 
@@ -215,9 +220,9 @@ input[type="time"]::-webkit-calendar-picker-indicator{
     position: absolute;
     margin-left: 3em;
     padding: 40px;
- }
+}
 
- .text-input {
+.text-input {
     background: transparent;
     color: #fafafa;
     width: 100%;
@@ -258,6 +263,7 @@ input[type="time"]::-webkit-calendar-picker-indicator{
 #form-cta:hover {
     color: #eeeeee;
 }
+
 /******************** responsive queries start *******************/
 
 /* for small mobile devices */
@@ -270,6 +276,7 @@ input[type="time"]::-webkit-calendar-picker-indicator{
         width: 100%;
         text-align: center;
     }
+
     #navigation li {
         padding: 0px;
         margin-top: -24px;
@@ -277,20 +284,24 @@ input[type="time"]::-webkit-calendar-picker-indicator{
         margin-right: 0%;
         margin-left: -35px;
     }
+
     #logo {
         width: 59%
     }
+
     #navigation a {
         margin-right: 10px;
         padding: 14px 13px;
         margin-left: -10px;
         margin-right: 80px;
     }
+
     #homepage-block-one {
         background-color: #eeeeee;
         width: 100%;
         height: 170px;
     }
+
     #homepage-block-one p {
         text-align: center;
         padding: 31px 0;
@@ -306,6 +317,7 @@ input[type="time"]::-webkit-calendar-picker-indicator{
         width: 100%;
         text-align: center;
     }
+
     #navigation li {
         padding: 25px 0% 0 3%;
     }
@@ -313,17 +325,20 @@ input[type="time"]::-webkit-calendar-picker-indicator{
     #logo {
         width: 59%
     }
+
     #navigation a {
         margin-right: 10px;
         padding: 14px 13px;
         margin-left: -14px;
         margin-right: 20px;
     }
+
     #main-banner {
         height: 272px;
         width: 127%;
         background: url(../images/banner-image-mobile.png) no-repeat center center;
-    } 
+    }
+
     #banner-text-block {
         letter-spacing: 1px;
         font-size: 176%;
@@ -346,24 +361,23 @@ input[type="time"]::-webkit-calendar-picker-indicator{
         height: 60px;
         text-align: center;
     }
+
     #navigation li {
         padding: 11px 12px 11px 1px;
         margin-top: -24px;
         float: right;
-        /* margin: 0 0 12px 0; */
         margin: 0 18px 0px 14px;
-        /* margin-right: 0%;
-        margin-left: -35px; */
     }
+
     #logo {
         width: 59%
     }
+
     #navigation a {
         padding: 11px 3px 11px 3px;
-        /* margin: 0 31px 0px 31px; */
-
         margin: 0 33px 0px -1px ;
     }
+
     #main-banner {
         height: 272px;
         width: 119%;
@@ -374,25 +388,25 @@ input[type="time"]::-webkit-calendar-picker-indicator{
         letter-spacing: 1px;
         font-size: 176%;
         height: 200px;
-    
         background: rgba(0, 0, 0, 0.7);
-    
         top: 200px;
-    
         position: absolute;
         margin: 5px -134px 0 0px;
         padding: 0 0px 0 0px;
     }
+
     #homepage-block-one {
         background-color: #eeeeee;
         width: 100%;
         height: 235px;
     }
+
     #homepage-block-one p {
         text-align: center;
         padding: 31px;
         font-size: 120%;
     }
+
     .about-container {
         max-width: 385px;
         height: 163px;
@@ -401,26 +415,30 @@ input[type="time"]::-webkit-calendar-picker-indicator{
         position: absolute;
         padding: 21px 10px 20px 0;
         margin: 0 10px 0 10px;
+    }
 }
 
 /* tablet size devices*/
 
 @media screen and (max-width: 914px){
     #navigation{
-            clear: left;
-            line-height: 65px;
-            margin: -6% 0% 0% -44%;
+        clear: left;
+        line-height: 65px;
+        margin: -6% 0% 0% -44%;
     }
+
     .header {
         background: #eeeeee;
         padding-top: 34px;
         width: 91%;
         height: 65px;
     }
+
     #navigation li {
         padding: 25px 2% 0 3%;
         margin: -1px -22px 2% 4px;
     }
+
     #logo {
         float: left;
         margin-left: -5px;
@@ -428,6 +446,7 @@ input[type="time"]::-webkit-calendar-picker-indicator{
         font-size: 50px;
     }
 }
+
 @media screen and (max-width: 916px){
     #main-banner {
         height: 375px;
