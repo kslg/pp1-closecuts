@@ -187,33 +187,34 @@ I used the 5 Planes of UX to provide a conceptual framework.
 - Engage with the community.
 - Provide a public service.
 
-#### Ideas & Inspiration Mind Map
+### Ideas & Inspiration Mind Map
 ![image](/docs/images/mind-map-image.png)
 
-#### Demographic
+### Demographic
 - Target Audience between: 16 years - 35 years
 - O.A.Ps Welcome
 - All genders Welcome.
 
-#### Colour Palette Ideas
+### Colour Palette Ideas
 - High colour contrast for better accessibility and clear communication.
 ![image](/docs/images/colour-palette-ideas.png)
 
-#### Content Strategy
+### Content Strategy
 - Information on the mission: Why we are doing this
 - Book an appointment
 - Store Location
 - Opening Times
 
-#### Typography
+### Typography
 Fonts selected are `Asap` and `Asap Condensed` from Google Fonts which are clear and easy to read. https://fonts.google.com/
 
 ![image](/docs/images/typography-screenshot.png)
 
+---
 
-### The Scope Plane
+## The Scope Plane
 
-#### Functional Requirements
+### Functional Requirements
 
 1. Problem: Customers need to book an appointment using an easy online form.
 
@@ -233,18 +234,56 @@ Fonts selected are `Asap` and `Asap Condensed` from Google Fonts which are clear
 	
    Solution: Present and image gallery showing customer experiences.
 
+### Content Requirements
 
------
+- This is a static content site with no regular updates required. 
+- Content is easy to maintain via HTML/CSS and upscaled if needed. 
+- Content on the site will be a mix of copy/text, images and forms.
+- Video content can als0 be added.
 
-## Frameworks
+### Interaction Design
+
+All Links and CTA (Call to Action) buttons will change colour to let the customers know that the buttons and links are clickable. 
+
+So that copy text does not take up too much real estate on the site, content can be partially hidden and a `Read More` button can be clicked to reveal more content. 
+
+### Scope of MVP
+
+Using the `MoSCoW prioritisation method` which is used in Agile project delivery to outline the importance of each requirement and what needs to be delivered in the MVP.
+
+#### MoSCoW Definition:
+![image](/docs/images/moscow-requirements-screenshot.png)
+
+---
+## The Structure Plane
+
+### Site Architecture
+- Easy Navigation allows the user to get to their destination in less than three clicks.
+- Sticky Navigation allows easy access to other main pages.
+
+
+### Wireframes
 
 ------
 
-## Credits / Borrowed Resources
+### Credits / Borrowed Resources
 
 ------
 
-## Unfixed Bugs
+### Descoped Requirements / Future Enhancements
+- Some requirements had to be descoped from the project due to time contraints. 
+- Descoping is a process which is part or Agile Project Management, and can be requirements that are brought back into a sprint or project at a later date.
+
+1. Sticky Navigation.
+2. Read More funtionality.
+3. Content Layout as seen in the Final Concept designs.
+4. Image Gallery Page.
+5. Contact Us Page.
+
+
+------
+
+### Unfixed Bugs
 
 ------
 
