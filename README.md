@@ -7,19 +7,15 @@ This is a non-transactional website for a Salon Academy. On this website the use
 
 ![image](/docs/images/i-am-responsive-screenshot.png)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Accessibility
 
-`python3 -m http.server`
+I’ve added ARIA attributes to all links on the page with text information. This is to help disabled users understand what the links are and their purpose. 
 
-A blue button should appear to click: _Make Public_,
+I’ve used Symantic HTML markup which helps browsers to understand the context of the content, and also helps with the accessibility for users with impairments.
 
-Another blue button should appear to click: _Open Browser_.
+I’ve used ROLE and ALT Attributes on all the background images to explain what the images are.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
 
 In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
