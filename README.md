@@ -23,11 +23,40 @@ I added a `description`, `keywords` and `author`. Search Engines will display th
 
 ## Features List
 
-### Booking Form
+### 1. Booking Form Call to Action Buttons
+
+The user has the option to book an appointment from the navigation when they are at the top of the page, or at the middle when they start scrolling down to browse.
+![image](/docs/images/feature-booking-form-cta-buttons.png)
+
+
+### 2. Intuitive Booking Form
+
+On the Booking Form Page, there is an intuative booking form for the user to fill out when they want to book an appointment.
+
+The form includes a `date selector` and `time selector` so the user can specify when they want to come in for the hair cut.
+
+The form is also `responsive` so yu user can book an appointment while out and about on mobile and tablet devices.
+
+![image](/docs/images/feature-booking-form.png)
+
+### 3. Contact Us Anchor Button
+
+The Contact Us details are below the browser fold. I've used an `anchor element` on the button so the user is automatically scolled down to the contact us section on the homepage, should the user want to get in touch with the salon.
+
+![image](/docs/images/feature-contact-us-anchor-button.png)
+
+
+### 4. Hover State on Buttons
+
+All the button on the site have a `uniformed hover state` interaction so it's clear for the user that the buttons are clickable.
+
+![image](/docs/images/feature-hover-state-buttons.png)
 
 
 
-To log into the Heroku toolbelt CLI:
+
+
+
 
 1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
 2. Scroll down to the *API Key* and click *Reveal*
