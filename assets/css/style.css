@@ -102,11 +102,20 @@ input[type="time"]::-webkit-calendar-picker-indicator{
 
 /*styling for the main banner and banner text block */
 
+#hero-outer{
+    height:600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
 #main-banner {
     height: 467px;
     width: 100%;
-    background: url(../images/banner-desktop-new.png) no-repeat center center;
+    /* background: url(../images/banner-desktop-new.png) no-repeat center center; */
+    background: url(../images/pexels-cottonbro-3993320.jpg) no-repeat center center;
 }
+
 #banner-text-block, #banner-text-block h2 {
     color: #ffffff;
 
@@ -119,7 +128,7 @@ input[type="time"]::-webkit-calendar-picker-indicator{
     padding-top: 40px;
     padding-left: 10px;
     background: rgba(0, 0, 0, 0.7);
-    top: 200px;
+    top: 70px;
     right: 150px;
     position: absolute;
 }
@@ -452,5 +461,11 @@ input[type="time"]::-webkit-calendar-picker-indicator{
         height: 375px;
         width: 100%;
         background: url(../images/banner-image-desktop.png) no-repeat center center;
+    }
+    #hero-outer {
+        height: 375px;
+    }
+    #banner-text-block{
+        top: 60px;
     }
 }
