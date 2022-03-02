@@ -155,7 +155,7 @@ Both the W3C Markup HTML Validator and W3C CSS Validator were used to to confirm
 
 ![image](/docs/images/w3c-markup-validation.png)
 
-<a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fkslg.github.io%2Fpp1-closecuts%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css" target="_blank">W3C CSS Validator Report</a>
+<a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fkslg.github.io%2Fpp1-closecuts%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en" target="_blank">W3C CSS Validator Report</a>
 
 ![image](/docs/images/w3c-css-validation.png)
 
