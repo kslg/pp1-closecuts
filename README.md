@@ -5,7 +5,7 @@
 
 This is a non-transactional website for a Salon Academy. On this website the user can find out more about the Academy and book an appointment with the Salon. The website is responsive so users can view the site and book appointments on mobile and tablet devices, while on the go. 
 
-![image](/docs/images/i-am-responsive-screenshot.png)
+![image](/docs/images/i-am-responsive-design-screenshot.png)
 
 ------
 
