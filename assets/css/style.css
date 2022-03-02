@@ -103,7 +103,7 @@ input[type="time"]::-webkit-calendar-picker-indicator{
 /*styling for the main banner and banner text block */
 
 #hero-outer{
-    height:600px;
+    height:466px;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -360,6 +360,13 @@ input[type="time"]::-webkit-calendar-picker-indicator{
     }
 }
 
+@media screen and (max-width: 315px){
+    #banner-text-block {
+        margin: 5px -147px 0 0px;
+        padding: 0 -1px 0 6px;
+    }    
+}
+
 
 @media screen and (max-width: 450px){
 
@@ -445,7 +452,7 @@ input[type="time"]::-webkit-calendar-picker-indicator{
 
     #navigation li {
         padding: 25px 2% 0 3%;
-        margin: -1px -22px 2% 4px;
+        margin: -1px -22px 3px 4px;
     }
 
     #logo {
