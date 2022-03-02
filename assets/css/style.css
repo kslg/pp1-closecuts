@@ -102,7 +102,7 @@ input[type="time"]::-webkit-calendar-picker-indicator{
 
 /*styling for the main banner and banner text block */
 
-#hero-outer{
+#banner-container{
     height:466px;
     width: 100%;
     overflow: hidden;
@@ -402,15 +402,12 @@ input[type="time"]::-webkit-calendar-picker-indicator{
 
     #banner-text-block {
         letter-spacing: 1px;
-        /* font-size: 176%; */
         font-size: 153%;
         height: 200px;
         background: rgba(0, 0, 0, 0.7);
         top: 200px;
         position: absolute;
-        /* margin: 5px -134px 0 0px; */
         margin: 8px -175px 0;
-        /* padding: 0 0px 0 0px; */
         padding: -1px 0px 0 0px;
     }
 
@@ -472,7 +469,7 @@ input[type="time"]::-webkit-calendar-picker-indicator{
         width: 100%;
         background: url(../images/banner-image-desktop.png) no-repeat center center;
     }
-    #hero-outer {
+    #banner-container {
         height: 375px;
     }
     #banner-text-block{

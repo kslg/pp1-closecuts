@@ -355,11 +355,10 @@ https://www.dare-salon.com/
 
 ------
 
-### Unfixed Bugs
+### Unfixed Bug
  Due to time constraints the following bugs are still unfixed. Following Agile practises, these bugs can go into a backlog of requirements and prioritised accordingly.
 
-- Mobile Banner for smaller devices. Image not aligned correctly.
-- Desktop Banner for larger screen sizes. White space on each side.
+- Desktop Banner on wider screens sizes showing White space on each side of the banner.
 
 ------
 
