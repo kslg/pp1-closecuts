@@ -363,7 +363,7 @@ input[type="time"]::-webkit-calendar-picker-indicator{
 @media screen and (max-width: 315px){
     #banner-text-block {
         margin: 5px -147px 0 0px;
-        padding: 0 -1px 0 6px;
+        padding: 0 0px 0 6px;
     }    
 }
 
@@ -408,7 +408,7 @@ input[type="time"]::-webkit-calendar-picker-indicator{
         top: 200px;
         position: absolute;
         margin: 8px -175px 0;
-        padding: -1px 0px 0 0px;
+        padding: 0px 0px 0 0px;
     }
 
     #homepage-block-one {
